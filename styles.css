@@ -1442,3 +1442,62 @@ footer nav{
     line-height:1.55;
   }
 }
+/* ==========================================
+   FINAL MOBILE OFFER CARD POLISH
+   ========================================== */
+
+@media screen and (max-width:520px){
+
+  /* More understated founding-client badge */
+  body .services .featured-offer .badge{
+    top:16px;
+    right:16px;
+    max-width:165px;
+
+    padding:8px 11px;
+
+    background:rgba(237,198,111,.95);
+    color:#101417;
+
+    border-radius:6px;
+
+    font-size:.57rem;
+    line-height:1.3;
+    letter-spacing:.05em;
+
+    box-shadow:0 8px 20px rgba(0,0,0,.18);
+  }
+
+  body .services .featured-offer .badge small{
+    font-size:.52rem;
+  }
+
+  /* Give icon breathing room below badge */
+  body .services .featured-offer .card-icon{
+    margin-top:20px;
+  }
+
+  /* Cleaner mobile feature list */
+  body .services .offer-card ul{
+    margin-top:4px;
+    margin-bottom:26px;
+  }
+
+  body .services .offer-card li{
+    margin:9px 0;
+    padding-left:23px;
+
+    font-size:.90rem;
+    line-height:1.48;
+  }
+
+  body .services .offer-card li:before{
+    font-size:.9rem;
+  }
+
+  /* Keep Intensive title balanced */
+  body .services .featured-offer h3{
+    font-size:1.72rem;
+    line-height:1.06;
+  }
+}
