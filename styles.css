@@ -1501,3 +1501,25 @@ footer nav{
     line-height:1.06;
   }
 }
+/* ==========================================
+   MOBILE SERVICES → APPROACH TRANSITION FIX
+   ========================================== */
+
+@media screen and (max-width:520px){
+
+  body .services{
+    padding-bottom:70px;
+  }
+
+  body .services .choice-panel{
+    margin-bottom:0;
+  }
+
+  body .services .section-fade{
+    height:70px;
+  }
+
+  body .approach{
+    padding-top:64px;
+  }
+}
