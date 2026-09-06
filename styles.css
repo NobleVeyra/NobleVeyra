@@ -1256,3 +1256,42 @@ footer nav{
     gap:22px;
   }
 }
+/* ========================================
+   NobleVeyra refinement additions
+======================================== */
+
+.hero-trust{
+  max-width:590px;
+  margin:14px 0 0;
+  color:var(--muted);
+  font-size:.96rem;
+  line-height:1.65;
+}
+
+.service-icon{
+  width:58px;
+  height:58px;
+  margin:0 auto 8px;
+  display:grid;
+  place-items:center;
+  border:1px solid var(--gold);
+  border-radius:50%;
+  color:var(--gold-hi);
+  font-size:1.8rem;
+  line-height:1;
+  background:rgba(195,154,75,.06);
+  box-shadow:
+    0 0 0 6px rgba(195,154,75,.025),
+    0 12px 35px rgba(0,0,0,.18);
+}
+
+.social a[data-email]{
+  text-transform:none;
+}
+
+@media(max-width:980px){
+  .hero-trust{
+    margin:14px auto 0;
+    max-width:560px;
+  }
+}
