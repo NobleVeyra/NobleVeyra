@@ -1,13 +1,8 @@
-/*
-  NobleVeyra Advisory — quick configuration
-  Replace only the values below. The rest of the site can remain untouched.
-*/
+// Replace only the values below. Keep the quotation marks.
 window.NOBLEVEYRA = {
-  domain: "https://nobleveyraadvisory.com",
-  email: "hello@nobleveyraadvisory.com",
-  strategyPaymentUrl: "#REPLACE-WITH-STRIPE-199-LINK",
-  strategyBookingUrl: "#REPLACE-WITH-GOOGLE-CALENDAR-BOOKING-LINK",
-  intensiveApplicationUrl: "mailto:hello@nobleveyraadvisory.com?subject=30-Day%20Business%20Launch%20Intensive",
-  instagramUrl: "#REPLACE-WITH-INSTAGRAM-URL",
-  threadsUrl: "#REPLACE-WITH-THREADS-URL"
+  strategyPaymentUrl: "PASTE_YOUR_STRIPE_STRATEGY_SESSION_LINK_HERE",
+  intensiveApplicationUrl: "PASTE_YOUR_INTENSIVE_APPLICATION_OR_CONTACT_LINK_HERE",
+  instagramUrl: "PASTE_YOUR_INSTAGRAM_URL_HERE",
+  threadsUrl: "PASTE_YOUR_THREADS_URL_HERE",
+  email: "PASTE_YOUR_BUSINESS_EMAIL_HERE"
 };
