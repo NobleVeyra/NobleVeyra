@@ -4,5 +4,5 @@ window.NOBLEVEYRA = {
   bookingUrl: "https://calendar.app.google/dReJnHRUXnpXrDiV9",
   instagramUrl: "https://www.instagram.com/nobleveyraadvisory?stkn=bTNjeWptdTBiNml5&utm_source=qr",
   threadsUrl: "https://www.threads.com/@noble_tj?igshid=NTc4MTIwNjQ2YQ==",
-  email: "hello@nobleveyraadvisory.com"
+  email: "tony@nobleveyraadvisory.com"
 };
