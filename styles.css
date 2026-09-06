@@ -1382,3 +1382,63 @@ footer nav{
     margin-top:18px;
   }
 }
+/* ==========================================
+   FINAL MOBILE SERVICES POLISH
+   ========================================== */
+
+@media screen and (max-width:520px){
+
+  /* Prevent section heading from sitting under fixed header */
+  #services{
+    scroll-margin-top:70px;
+  }
+
+  body .services{
+    padding-top:82px;
+  }
+
+  /* Better mobile heading proportions */
+  body .services h2{
+    font-size:clamp(2.7rem,10.8vw,3.45rem);
+    line-height:1.03;
+    letter-spacing:-.035em;
+  }
+
+  body .services .section-lead{
+    margin-top:20px;
+    margin-bottom:32px;
+    line-height:1.6;
+  }
+
+  /* Bring offer cards closer to introduction */
+  body .services .offer-grid{
+    margin-top:30px;
+    gap:18px;
+  }
+
+  /* Slightly more compact cards */
+  body .services .offer-card{
+    padding:38px 20px 32px;
+  }
+
+  body .services .service-icon{
+    width:52px;
+    height:52px;
+    font-size:1.45rem;
+    margin-bottom:6px;
+  }
+
+  body .services .price{
+    font-size:2.55rem;
+  }
+
+  body .services .offer-card h3{
+    font-size:1.75rem;
+    line-height:1.08;
+  }
+
+  body .services .offer-summary{
+    font-size:.92rem;
+    line-height:1.55;
+  }
+}
