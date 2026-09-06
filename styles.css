@@ -1340,3 +1340,45 @@ footer nav{
     line-height:1.5;
   }
 }
+/* ==========================================
+   FINAL HERO MOBILE SPACING
+   ========================================== */
+
+@media screen and (max-width:520px){
+
+  /* Visually enlarge logo inside a smaller header footprint */
+  .site-header .nav-shell{
+    min-height:58px;
+  }
+
+  .site-header .brand{
+    width:115px;
+    height:58px;
+    overflow:hidden;
+    position:relative;
+  }
+
+  .site-header .brand img{
+    position:absolute;
+    width:105px;
+    max-width:none;
+    height:auto;
+    left:-5px;
+    top:50%;
+    transform:translateY(-50%);
+  }
+
+  .site-header .menu{
+    padding:8px 14px;
+  }
+
+  /* Tighten lower hero spacing */
+  .hero-note{
+    margin-top:25px;
+    margin-bottom:0;
+  }
+
+  .hero-portrait{
+    margin-top:18px;
+  }
+}
