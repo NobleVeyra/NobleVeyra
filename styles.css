@@ -1523,3 +1523,39 @@ footer nav{
     padding-top:64px;
   }
 }
+/* ==========================================
+   DEFINITIVE SERVICES → APPROACH MOBILE FIX
+   ========================================== */
+
+@media screen and (max-width:520px){
+
+  body .services{
+    padding-bottom:55px;
+  }
+
+  body .services .choice-panel{
+    margin-bottom:0;
+  }
+
+  /* Remove oversized mobile transition */
+  body .services > .section-fade{
+    height:45px;
+    bottom:-1px;
+  }
+
+  /* Pull next section into the transition */
+  body .approach{
+    margin-top:-1px;
+    padding-top:58px;
+  }
+
+  /* Prevent decorative fade from creating visual dead space */
+  body .services .fade-to-dark{
+    background:linear-gradient(
+      to bottom,
+      rgba(255,248,236,0),
+      rgba(4,19,31,.72) 55%,
+      #04131f 100%
+    );
+  }
+}
