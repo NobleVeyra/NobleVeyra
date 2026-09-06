@@ -1286,3 +1286,57 @@ footer nav{
     font-size:1.4rem;
   }
 }
+/* ==========================================
+   FINAL MOBILE POLISH
+   ========================================== */
+
+@media screen and (max-width:520px){
+
+  /* Slimmer premium header */
+  .site-header .nav-shell{
+    min-height:62px;
+  }
+
+  .site-header .brand{
+    height:62px;
+    overflow:hidden;
+    display:flex;
+    align-items:center;
+  }
+
+  .site-header .brand img{
+    width:76px;
+    height:76px;
+    object-fit:contain;
+  }
+
+  .site-header .menu{
+    padding:8px 14px;
+    font-size:.86rem;
+    border-radius:10px;
+  }
+
+  /* Tighter strategic framework cards */
+  body .approach .decision-grid{
+    gap:11px;
+  }
+
+  body .approach .decision-grid article{
+    padding:17px 18px 18px;
+  }
+
+  body .approach .decision-grid article span{
+    margin-bottom:5px;
+    font-size:.67rem;
+  }
+
+  body .approach .decision-grid article h3{
+    margin-bottom:6px;
+    font-size:1.35rem;
+  }
+
+  body .approach .decision-grid article p{
+    font-size:.88rem;
+    line-height:1.5;
+  }
+}
