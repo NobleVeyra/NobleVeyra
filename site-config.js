@@ -1,8 +1,8 @@
-// Replace only the values below. Keep the quotation marks.
 window.NOBLEVEYRA = {
-  strategyPaymentUrl: "PASTE_YOUR_STRIPE_STRATEGY_SESSION_LINK_HERE",
-  intensiveApplicationUrl: "PASTE_YOUR_INTENSIVE_APPLICATION_OR_CONTACT_LINK_HERE",
-  instagramUrl: "PASTE_YOUR_INSTAGRAM_URL_HERE",
-  threadsUrl: "PASTE_YOUR_THREADS_URL_HERE",
-  email: "PASTE_YOUR_BUSINESS_EMAIL_HERE"
+  strategyPaymentUrl: "https://buy.stripe.com/8x2bJ10Cpgrhag6ct64Rq01",
+  intensiveApplicationUrl: "https://buy.stripe.com/cNi9ATcl7b6Xag6bp24Rq00",
+  bookingUrl: "https://calendar.app.google/dReJnHRUXnpXrDiV9",
+  instagramUrl: "https://www.instagram.com/nobleveyraadvisory?stkn=bTNjeWptdTBiNml5&utm_source=qr",
+  threadsUrl: "https://www.threads.com/@noble_tj?igshid=NTc4MTIwNjQ2YQ==",
+  email: "hello@nobleveyraadvisory.com"
 };
