@@ -1059,3 +1059,200 @@ footer nav{
     padding:125px 0 105px;
   }
 }
+/* =========================
+   NOBLEVEYRA MOBILE FIXES
+   ========================= */
+
+@media (max-width:820px){
+
+  /* Header */
+  .site-header{
+    background:rgba(2,10,17,.96);
+    backdrop-filter:blur(14px);
+    border-bottom:1px solid rgba(195,154,75,.18);
+  }
+
+  .nav-shell{
+    min-height:78px;
+    grid-template-columns:1fr auto;
+    gap:20px;
+  }
+
+  .brand{
+    display:flex;
+    align-items:center;
+    width:max-content;
+  }
+
+  .brand img{
+    width:110px;
+    height:auto;
+    object-fit:contain;
+  }
+
+  .menu{
+    display:block;
+    justify-self:end;
+    font-size:1rem;
+    padding:11px 18px;
+  }
+
+  /* Prevent hero from colliding with fixed header */
+  .hero{
+    padding-top:125px;
+  }
+
+  /* Hero typography */
+  .hero-copy{
+    padding-top:0;
+  }
+
+  h1{
+    font-size:clamp(3.4rem,14vw,5.2rem);
+    line-height:.94;
+  }
+
+  .hero-sub{
+    max-width:600px;
+    margin:25px auto 5px;
+  }
+
+  /* Buttons */
+  .actions{
+    width:100%;
+    max-width:660px;
+    margin:30px auto 0;
+  }
+
+  .actions .pill{
+    width:100%;
+  }
+
+  /* Founder hero portrait */
+  .hero-portrait{
+    width:100%;
+    min-height:0;
+    height:520px;
+    margin-top:30px;
+  }
+
+  .hero-portrait img{
+    object-position:center 18%;
+  }
+
+  /* Founder section image */
+  .founder-image{
+    height:500px;
+  }
+
+  /* Footer */
+  .footer-brand img{
+    width:125px;
+    margin:0 auto;
+  }
+
+  .footer-brand p{
+    margin-top:12px;
+  }
+
+  footer nav{
+    gap:16px 24px;
+  }
+
+  .social{
+    margin-top:10px;
+  }
+}
+
+
+@media (max-width:520px){
+
+  .shell{
+    width:92vw;
+  }
+
+  /* Smaller professional mobile logo */
+  .brand img{
+    width:95px;
+  }
+
+  .nav-shell{
+    min-height:74px;
+  }
+
+  .menu{
+    padding:10px 16px;
+  }
+
+  .hero{
+    padding-top:110px;
+  }
+
+  /* Better mobile headline proportions */
+  h1{
+    font-size:clamp(3.25rem,13.8vw,4.6rem);
+    line-height:.94;
+    letter-spacing:-.04em;
+  }
+
+  .hero-sub{
+    font-size:1.08rem;
+    line-height:1.5;
+  }
+
+  /* Keep CTA buttons inside viewport */
+  .pill{
+    width:100%;
+    max-width:100%;
+    padding:15px 18px;
+  }
+
+  .micro-motto{
+    justify-content:center;
+    gap:10px;
+    letter-spacing:.19em;
+    font-size:.64rem;
+  }
+
+  .micro-motto i{
+    width:30px;
+  }
+
+  /* Portrait */
+  .hero-portrait{
+    height:470px;
+    min-height:0;
+    border-radius:28px 28px 0 0;
+  }
+
+  .portrait-signature{
+    right:16px;
+    bottom:22px;
+  }
+
+  /* Founder section */
+  .founder-image{
+    height:440px;
+  }
+
+  /* Footer */
+  footer{
+    padding-top:40px;
+  }
+
+  .footer-brand img{
+    width:115px;
+  }
+
+  .footer-grid{
+    gap:25px;
+  }
+
+  footer nav{
+    gap:14px 20px;
+  }
+
+  .social{
+    gap:22px;
+  }
+}
