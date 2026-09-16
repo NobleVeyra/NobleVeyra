@@ -2033,3 +2033,66 @@ footer nav{
   }
 
 }
+/* ==========================================
+   IPHONE MOBILE STABILITY FIX
+   ========================================== */
+
+@media screen and (max-width: 820px) {
+
+  /* Prevent Safari reveal animations from leaving sections invisible */
+  .reveal {
+    opacity: 1 !important;
+    transform: none !important;
+    visibility: visible !important;
+  }
+
+  /* Remove excess founder section height */
+  .founder {
+    min-height: 0 !important;
+    height: auto !important;
+    padding-top: 72px !important;
+    padding-bottom: 80px !important;
+    overflow: hidden !important;
+  }
+
+  .founder-layout {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 32px !important;
+    height: auto !important;
+    min-height: 0 !important;
+  }
+
+  .founder-image {
+    position: relative !important;
+    width: 100% !important;
+    height: 410px !important;
+    min-height: 0 !important;
+    margin: 0 !important;
+    transform: none !important;
+    overflow: hidden !important;
+    border-radius: 22px !important;
+  }
+
+  .founder-image img {
+    display: block !important;
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+    object-position: center 17% !important;
+  }
+
+  .founder-copy {
+    position: static !important;
+    width: 100% !important;
+    height: auto !important;
+    min-height: 0 !important;
+    margin: 0 !important;
+    transform: none !important;
+  }
+
+  .founder-copy .pill {
+    width: 100% !important;
+    justify-content: center !important;
+  }
+}
