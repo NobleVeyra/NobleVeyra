@@ -1706,3 +1706,330 @@ footer nav{
     margin-top: 14px;
   }
 }
+/* =========================================================
+   NobleVeyra Client Results + Conversion Updates
+   ========================================================= */
+
+.offer-card > .text-link {
+  display: inline-block;
+  margin-top: 16px;
+  font-size: 0.92rem;
+  font-weight: 600;
+  line-height: 1.45;
+  text-decoration: none;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.offer-card > .text-link:hover,
+.offer-card > .text-link:focus-visible {
+  opacity: 0.82;
+  transform: translateY(-1px);
+}
+
+.blue-card > .text-link {
+  color: #f4d48e;
+}
+
+.black-card > .text-link {
+  color: #d7b76b;
+}
+
+.offer-card > .text-link::after {
+  content: " →";
+}
+
+
+/* CLIENT RESULTS */
+
+.client-results {
+  position: relative;
+  overflow: hidden;
+  padding-top: 110px;
+  padding-bottom: 130px;
+}
+
+.results-intro {
+  max-width: 900px;
+  margin-bottom: 60px;
+}
+
+.results-intro h2 {
+  margin-bottom: 22px;
+}
+
+.results-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 18px;
+  margin-top: 48px;
+}
+
+.result-card {
+  position: relative;
+  padding: 30px 26px;
+  border: 1px solid rgba(175, 144, 80, 0.28);
+  border-radius: 18px;
+  background:
+    linear-gradient(
+      145deg,
+      rgba(255,255,255,0.035),
+      rgba(255,255,255,0.01)
+    );
+  min-height: 260px;
+}
+
+.result-number {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  margin-bottom: 22px;
+  border: 1px solid rgba(175, 144, 80, 0.5);
+  border-radius: 50%;
+  color: #d7b76b;
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+.result-card h3 {
+  margin-bottom: 12px;
+  color: #fffaf1;
+  font-size: 1.3rem;
+}
+
+.result-card p {
+  color: rgba(255,255,255,0.72);
+  line-height: 1.7;
+}
+
+
+.results-divider {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin: 85px 0 65px;
+  color: #d7b76b;
+  font-size: 0.76rem;
+  font-weight: 700;
+  letter-spacing: 0.28em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.results-divider::before,
+.results-divider::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: rgba(175, 144, 80, 0.28);
+}
+
+
+.results-story-heading {
+  display: grid;
+  grid-template-columns: 1.4fr 0.8fr;
+  gap: 50px;
+  align-items: end;
+  margin-bottom: 38px;
+}
+
+.results-story-heading h2 {
+  margin-bottom: 0;
+}
+
+.results-note {
+  color: rgba(255,255,255,0.62);
+  line-height: 1.7;
+  font-size: 0.94rem;
+}
+
+
+.results-case-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+}
+
+.results-case {
+  padding: 30px;
+  border-radius: 18px;
+  border: 1px solid rgba(175, 144, 80, 0.35);
+  background:
+    linear-gradient(
+      180deg,
+      rgba(12, 31, 46, 0.95),
+      rgba(4, 19, 31, 0.96)
+    );
+}
+
+.case-label {
+  display: block;
+  margin-bottom: 18px;
+  color: #d7b76b;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+
+.results-case h3 {
+  margin-bottom: 25px;
+  color: #fffaf1;
+  font-family: "Playfair Display", serif;
+  font-size: 1.5rem;
+  line-height: 1.15;
+}
+
+.results-case h4 {
+  margin: 22px 0 6px;
+  color: #d7b76b;
+  font-size: 0.88rem;
+}
+
+.results-case p {
+  color: rgba(255,255,255,0.72);
+  line-height: 1.65;
+}
+
+
+.results-method {
+  margin-top: 90px;
+}
+
+.results-method-heading {
+  max-width: 760px;
+  margin-bottom: 42px;
+}
+
+.results-method-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 18px;
+}
+
+.results-method-grid article {
+  position: relative;
+  text-align: center;
+  padding: 24px 18px;
+}
+
+.results-method-grid article span {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 54px;
+  height: 54px;
+  margin-bottom: 18px;
+  border: 1px solid rgba(175,144,80,0.65);
+  border-radius: 50%;
+  color: #d7b76b;
+  font-weight: 700;
+}
+
+.results-method-grid article h3 {
+  color: #fffaf1;
+  margin-bottom: 10px;
+}
+
+.results-method-grid article p {
+  color: rgba(255,255,255,0.66);
+  line-height: 1.6;
+}
+
+
+.results-proof-note {
+  max-width: 900px;
+  margin: 85px auto 0;
+  padding: 42px;
+  border: 1px solid rgba(175,144,80,0.28);
+  border-radius: 20px;
+  background: rgba(255,255,255,0.025);
+  text-align: center;
+}
+
+.results-proof-note h3 {
+  margin: 10px 0 14px;
+  color: #fffaf1;
+  font-family: "Playfair Display", serif;
+  font-size: 1.7rem;
+}
+
+.results-proof-note p:last-child {
+  color: rgba(255,255,255,0.68);
+  line-height: 1.7;
+}
+
+
+/* FINAL CTA LINK */
+
+.final-cta .text-link {
+  color: #fffaf1;
+  font-weight: 600;
+}
+
+.final-cta .text-link:hover {
+  color: #d7b76b;
+}
+
+
+/* MOBILE */
+
+@media (max-width: 1000px) {
+
+  .results-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .results-case-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .results-method-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .results-story-heading {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+}
+
+
+@media (max-width: 720px) {
+
+  .client-results {
+    padding-top: 80px;
+    padding-bottom: 90px;
+  }
+
+  .results-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .result-card {
+    min-height: auto;
+  }
+
+  .results-divider {
+    margin: 60px 0 45px;
+    font-size: 0.66rem;
+    letter-spacing: 0.18em;
+  }
+
+  .results-method-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .results-proof-note {
+    padding: 28px 20px;
+  }
+
+  .offer-card > .text-link {
+    display: block;
+    text-align: center;
+    margin-top: 14px;
+  }
+
+}
