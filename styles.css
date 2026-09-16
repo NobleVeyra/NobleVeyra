@@ -1666,3 +1666,43 @@ footer nav{
     letter-spacing:.11em;
   }
 }
+/* =========================================================
+   NobleVeyra conversion-link polish
+   Append this to the bottom of styles.css
+   ========================================================= */
+
+.offer-card > .text-link {
+  display: inline-block;
+  margin-top: 16px;
+  font-size: 0.92rem;
+  font-weight: 600;
+  line-height: 1.45;
+  text-decoration: none;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.offer-card > .text-link:hover,
+.offer-card > .text-link:focus-visible {
+  opacity: 0.82;
+  transform: translateY(-1px);
+}
+
+.blue-card > .text-link {
+  color: #f4d48e;
+}
+
+.black-card > .text-link {
+  color: #d7b76b;
+}
+
+.offer-card > .text-link::after {
+  content: " →";
+}
+
+@media (max-width: 720px) {
+  .offer-card > .text-link {
+    display: block;
+    text-align: center;
+    margin-top: 14px;
+  }
+}
