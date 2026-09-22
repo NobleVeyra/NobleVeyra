@@ -1,9 +1,8 @@
 window.NOBLEVEYRA = {
-  toolkitPaymentUrl: "https://buy.stripe.com/cNi9ATetf6QHewm8cQ4Rq02",
   strategyPaymentUrl: "https://buy.stripe.com/8x2bJ10Cpgrhag6ct64Rq01",
   intensiveApplicationUrl: "https://buy.stripe.com/cNi9ATcl7b6Xag6bp24Rq00",
   bookingUrl: "https://calendar.app.google/dReJnHRUXnpXrDiV9",
   instagramUrl: "https://www.instagram.com/nobleveyraadvisory",
   threadsUrl: "https://www.threads.com/@nobleveyraadvisory",
-  email: "tj@nobleveyraadvisory.com"
+  email: "hello@nobleveyraadvisory.com"
 };
