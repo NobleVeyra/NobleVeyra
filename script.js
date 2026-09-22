@@ -48,9 +48,6 @@
           <article class="offer-card blue-card">
             <div class="card-icon"><span class="service-icon">◎</span></div>
             <p class="offer-eyebrow">Private Business Diagnosis</p>
-            <div class="offer-card-image-wrap">
-              <img src="strategy-session-product.png" alt="NobleVeyra Business Launch Strategy Session" class="offer-card-image">
-            </div>
             <p class="price">$199</p>
             <h3>Business Launch<br>Strategy Session</h3>
             <p class="tagline">Get personalized clarity.</p>
@@ -74,9 +71,6 @@
             <span class="badge">Founding Client Access<br><small>First 3 Engagements</small></span>
             <div class="card-icon"><span class="service-icon">◇</span></div>
             <p class="offer-eyebrow">30 Days of Private Advisory</p>
-            <div class="offer-card-image-wrap">
-              <img src="intensive-product.png" alt="NobleVeyra 30-Day Business Launch Intensive" class="offer-card-image">
-            </div>
             <p class="price">$1,500</p>
             <h3>30-Day Business<br>Launch Intensive</h3>
             <p class="tagline">Execute with strategic support.</p>
